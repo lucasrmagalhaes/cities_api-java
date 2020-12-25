@@ -31,11 +31,14 @@
 
 ##### Populate
 - [Data](https://github.com/chinnonsantos/sql-paises-estados-cidades/tree/master/PostgreSQL "Data")
+- git clone git@github.com:chinnonsantos/sql-paises-estados-cidades.git
+- cd sql-paises-estados-cidades/
+- cd PostgreSQL/
 
 <pre>
 cd ~/workspace/sql-paises-estados-cidades/PostgreSQL
 
-docker run -it --rm --net=host -v $PWD:/tmp postgres /bin/bash
+winpty docker run -it --rm --net=host -v $PWD:/tmp postgres /bin/bash
 
 psql -h localhost -U postgres_user_city cities -f /tmp/pais.sql
 psql -h localhost -U postgres_user_city cities -f /tmp/estado.sql
