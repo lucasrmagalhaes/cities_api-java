@@ -28,3 +28,23 @@
 ##### Properties
 - [Spring](https://docs.spring.io/spring-boot/docs/current/reference/html/appendix-application-properties.html "Spring")
 - [JDBC](https://www.codejava.net/java-se/jdbc/jdbc-database-connection-url-for-common-databases "JDBC")
+
+##### Populate
+- [Data](https://github.com/chinnonsantos/sql-paises-estados-cidades/tree/master/PostgreSQL "Data")
+
+<pre>
+cd ~/workspace/sql-paises-estados-cidades/PostgreSQL
+
+docker run -it --rm --net=host -v $PWD:/tmp postgres /bin/bash
+
+psql -h localhost -U postgres_user_city cities -f /tmp/pais.sql
+psql -h localhost -U postgres_user_city cities -f /tmp/estado.sql
+psql -h localhost -U postgres_user_city cities -f /tmp/cidade.sql
+
+psql -h localhost -U postgres_user_city cities
+
+CREATE EXTENSION cube; 
+CREATE EXTENSION earthdistance;
+</pre>
+
+- [PostgreSQL: earthdistance](https://www.postgresql.org/docs/current/earthdistance.html "PostgreSQL: earthdistance")
