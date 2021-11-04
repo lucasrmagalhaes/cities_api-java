@@ -1,8 +1,7 @@
-package com.github.lucasrmagalhaes.citiesapi;
+package com.github.lucasrmagalhaes.citiesapi.countries;
 
 import com.github.lucasrmagalhaes.citiesapi.countries.Country;
-import com.github.lucasrmagalhaes.citiesapi.repository.CountryRepository;
-import org.apache.coyote.Response;
+import com.github.lucasrmagalhaes.citiesapi.countries.repository.CountryRepository;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.http.ResponseEntity;
