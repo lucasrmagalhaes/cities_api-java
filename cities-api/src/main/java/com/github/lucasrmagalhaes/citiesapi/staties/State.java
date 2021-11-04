@@ -40,8 +40,7 @@ public class State {
     @Column(name = "ddd", columnDefinition = "jsonb")
     private List<Integer> ddd;
 
-    public State() {
-    }
+    public State() {}
 
     public Long getId() {
         return id;
