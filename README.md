@@ -1,5 +1,18 @@
 ### API REST de Consulta de Cidades do Brasil
 
+##### Endpoints
+[/cities](https://cities-api-dio-java.herokuapp.com/cities "/cities")
+<br />
+[/countries](https://cities-api-dio-java.herokuapp.com/countries?page=5&size=50&sort=id,asc "/countries")
+<br />
+[/countries/{id}](https://cities-api-dio-java.herokuapp.com/countries/1 "/countries/{id}")
+<br />
+[/states](https://cities-api-dio-java.herokuapp.com/states "/states")
+<br />
+[/distances/by-cube](https://cities-api-dio-java.herokuapp.com/distances/by-cube?from=4929&to=5254 "/distances/by-cube")
+<br />
+[/distances/by-points](https://cities-api-dio-java.herokuapp.com/distances/by-points?from=4929&to=5254 "/distances/by-points")
+
 ##### Framework do Projeto
 - [Spring Initializr](https://start.spring.io/ "Spring Initializr")
 - **Project:** Gradle Project
