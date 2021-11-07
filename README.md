@@ -1,4 +1,31 @@
-### API REST de Consulta de Cidades do Brasil
+<h1 align="center">API REST de Consulta de Cidades do Brasil</h1>
+
+<p align="center">
+  <a href="https://github.com/lucasrmagalhaes/cities_api-java/issues">
+    <img src="https://img.shields.io/github/issues/lucasrmagalhaes/cities_api-java" /> 
+  </a>
+    
+  <a href="https://github.com/lucasrmagalhaes/cities_api-java/network/members">
+    <img src="https://img.shields.io/github/forks/lucasrmagalhaes/cities_api-java" /> 
+  </a>
+    
+  <a href="https://github.com/lucasrmagalhaes/cities_api-java/stargazers">
+    <img src="https://img.shields.io/github/stars/lucasrmagalhaes/cities_api-java" /> 
+  </a>
+  
+   <a href="https://github.com/lucasrmagalhaes/cities_api-java/blob/master/LICENSE">
+    <img src="https://img.shields.io/github/license/lucasrmagalhaes/cities_api-java" /> 
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://cities-api-dio-java.herokuapp.com/">
+    <img 
+         src="https://github.com/lucasrmagalhaes/cities_api-java/blob/master/src/main/resources/images/cities-api.gif" 
+         alt="Cities API" 
+    />
+  </a>
+</p>
 
 ##### Endpoints
 [/cities](https://cities-api-dio-java.herokuapp.com/cities "/cities")
